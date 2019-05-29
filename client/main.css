@@ -1,0 +1,20 @@
+body {
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+#messageform{
+  padding: 5px;
+  background:#596595;
+  color:#ffffff;
+  margin-bottom:10px
+}
+
+.message{
+  padding:8px;
+  margin-bottom:5px;
+}
+
+.message span{
+  color:#eeeeee;
+}

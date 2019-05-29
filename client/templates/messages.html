@@ -1,0 +1,11 @@
+<template name="messages">
+<div>
+ {{#each messages}}
+   <div class="message">
+    {{#if currentUser}}
+     {{email}}: {{text}}
+    {{/if}}
+   </div>
+ {{/each}}
+</div>
+</template>
