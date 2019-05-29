@@ -1,6 +1,8 @@
 <template name="add">
   <form id="messageform">
+    {{#if currentUser}}
     <input type="text" name="text" placeholder="Create discussion message.">
     <button type="submit">Submit</button>
+    {{/if}}
   </form>
 </template>
