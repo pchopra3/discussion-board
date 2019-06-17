@@ -1,2 +1,2 @@
 # discussion-board
-A basic discussion web app
+A basic discussion board web app
